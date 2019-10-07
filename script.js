@@ -146,3 +146,6 @@ Vue.component('card', {
 
 const app = new Vue({
   el: '#app' });
+
+
+
