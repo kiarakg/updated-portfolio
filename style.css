@@ -571,9 +571,26 @@ opacity: 0;
   h1 + p, p + p {
 	margin-top: 10px;
   }
+
+/* .friendFinder {
+	padding-right: 40px;
+	padding-bottom: 10px;
+  }
+
+.wallet {
+	padding-right: 40px;
+}
+
+.bamazon {
+	padding-right: 40px;
+}
+
+.GifTastic {
+	padding-right: 40px;
+} */
   
   .portfolio-container {
-	padding: 40px 80px;
+	/* padding: 40px 80px; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

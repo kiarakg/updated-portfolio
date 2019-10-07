@@ -253,39 +253,6 @@
                     </linearGradient>
                 </defs>
             </svg>
-
-
-            <!-- <div class="row">
-      <div class="eight columns">
-        <div class="progressBar">
-          <h4>HTML5</h4>
-          <div class="progressBarContainer">
-            <div class="progressBarValue value-90"></div>
-          </div>
-        </div>
-        <div class="progressBar">
-          <h4>CSS3</h4>
-          <div class="progressBarContainer">
-            <div class="progressBarValue value-80"></div>
-          </div>
-        </div>
-        <div class="progressBar">
-          <h4>Jquery</h4>
-          <div class="progressBarContainer">
-            <div class="progressBarValue value-30"></div>
-          </div>
-        </div>
-        <div class="progressBar">
-          <h4>WordPress</h4>
-          <div class="progressBarContainer">
-            <div class="progressBarValue value-70"></div>
-          </div>
-        </div>
-      </div>
-      <div class="four columns">
-        <p></p>
-      </div>
-    </div> -->
         </div>
     </section>
 
@@ -297,70 +264,60 @@
             <h1>Work</h1>
             <div class="block"></div>
             <div class="row">
-                <!-- <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work One" /></div>
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Two" /></div>
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Three" />
-                </div>
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Four" />
-                </div>
-            </div> -->
-
                 <div id="app" class="portfolio-container">
 
-                    <a href="https://infinite-retreat-01817.herokuapp.com/">
-                        <card data-image="assets/images/FriendFinder.png">
-                            <h1 slot="header">Friend Finder</h1>
-                            <p slot="content">Full stack friend finder web app.</p>
-                        </card>
-                    </a>
+                    <div class="friendFinder">
+                        <a href="https://infinite-retreat-01817.herokuapp.com/">
+                            <card data-image="assets/images/FriendFinder.png">
+                                <h1 slot="header">Friend Finder</h1>
+                                <p slot="content">Full stack friend finder web app.</p>
+                            </card>
+                        </a>
+                    </div>
 
-                    <a href="https://letmecheckmywallet.herokuapp.com/">
-                        <card data-image="assets/images/wallet.png">
-                            <h1 slot="header">Let Me Ask My Wallet</h1>
-                            <p slot="content">Budgeting app/Chat Bot</p>
+                    <div class="wallet">
+                        <a href="https://letmecheckmywallet.herokuapp.com/">
+                            <card data-image="assets/images/wallet.png">
+                                <h1 slot="header">Let Me Ask My Wallet</h1>
+                                <p slot="content">Budgeting app/Chat Bot</p>
+                            </card>
+                        </a>
+                    </div>
 
-                        </card>
-                    </a>
+                    <div class="train">
+                        <a href="https://kiarakg.github.io/Train-Scheduler/">
+                            <card data-image="assets/images/TrainScheduler.png">
+                                <h1 slot="header">Train Scheduler</h1>
+                                <p slot="content">MomentJS app</p>
+                            </card>
+                        </a>
+                    </div>
 
-                    <a href="https://kiarakg.github.io/Train-Scheduler/">
-                    <card data-image="assets/images/TrainScheduler.png">
-                        <h1 slot="header">Train Scheduler</h1>
-                        <p slot="content">MomentJS app</p>
-                    </card>
-                    </a>
+                    <div class="bamazon">
+                        <a href="https://github.com/kiarakg/bamazon">
+                            <card data-image="assets/images/Bamazon.png">
+                                <h1 slot="header">Bamazon</h1>
+                                <p slot="content">Storefront Node.js app</p>
+                            </card>
+                        </a>
+                    </div>
 
-                    <a href="https://github.com/kiarakg/bamazon">
-                    <card data-image="assets/images/Bamazon.png">
-                        <h1 slot="header">Bamazon</h1>
-                        <p slot="content">Storefront Node.js app</p>
-                    </card>
-                    </a>
-
-                    <a href="https://kiarakg.github.io/GifTastic/">
-                    <card data-image="assets/images/GifTastic.png">
-                        <h1 slot="header">Gif Tastic</h1>
-                        <p slot="content">GIPHY API app</p>
-                    </card>
-                    </a>
+                    <div class="GifTastic">
+                        <a href="https://kiarakg.github.io/GifTastic/">
+                            <card data-image="assets/images/GifTastic.png">
+                                <h1 slot="header">Gif Tastic</h1>
+                                <p slot="content">GIPHY API app</p>
+                            </card>
+                        </a>
+                    </div>
 
                     <a href="https://kiarakg.github.io/TriviaGame/">
-                    <card data-image="assets/images/TriviaGame.png">
-                        <h1 slot="header">Trivia Game</h1>
-                        <p slot="content">Test your knowledge of The Office.</p>
-                    </card>
+                        <card data-image="assets/images/TriviaGame.png">
+                            <h1 slot="header">Trivia Game</h1>
+                            <p slot="content">Test your knowledge of The Office.</p>
+                        </card>
                     </a>
                 </div>
-
-
-                <!-- <div class="row" style="margin-top: 30px;">
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Five" />
-                </div>
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Six" /></div>
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Seven" />
-                </div>
-                <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Eight" />
-                </div>
-            </div> -->
             </div>
     </section>
 
@@ -448,12 +405,14 @@
                     </script>
                 </p>
             </div>
-            <div class="three columns"> <span class="typcn typcn-social-facebook-circular socialIcons"></span> <span
-                    class="typcn typcn-social-instagram-circular socialIcons"></span> <span
-                    class="typcn typcn-social-google-plus-circular socialIcons"></span> <span
-                    class="typcn typcn-social-linkedin-circular socialIcons"></span> </div>
+            <div class="three columns"> <span class="typcn typcn-social-facebook-circular socialIcons"></span> 
+                <span class="typcn typcn-social-instagram-circular socialIcons"></span> 
+                <span class="typcn typcn-social-google-plus-circular socialIcons"></span> 
+                <span class="typcn typcn-social-linkedin-circular socialIcons"></span> 
+            </div>
         </div>
     </footer>
+
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
