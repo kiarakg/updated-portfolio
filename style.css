@@ -6,7 +6,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	font-size: 1.5em;
+	font-size: 1.75em;
 	line-height: 1.6;
 	font-weight: 400;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -209,7 +209,11 @@ a:hover {
 }
 /* Header Section
 ********************************************************************* */
-
+img {
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 0;
+}
 
 header {
 	display: -webkit-box;
@@ -722,6 +726,7 @@ opacity: 0;
 ********************************************************************* */
 #contact {
 	padding: 100px 0 100px 0;
+	background-color:  #F5F5F5;
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;
@@ -776,7 +781,7 @@ footer p {
 	margin: 20px 0 0 0;
 }
 .socialIcons {
-	font-size: 34px;
+	font-size: 45px;
 	color: rgba(255, 255, 255, 0.7);
 }
 
@@ -840,6 +845,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .icon {
 	padding-right: 10px;
 	color: #e55d87;
+	/* font-size: 30px; */
 }
 .block {
 	width: 70px;
