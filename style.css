@@ -528,10 +528,19 @@ opacity: 0;
 .value-100 {
 	width: 100%;
 }
+
+/* Education Section
+********************************************************* */
+#education {
+	padding: 100px 0 100px 0;
+
+}
+
 /* Portfolio Section
 ********************************************************************* */
 #portfolio {
 	padding: 100px 0 100px 0;
+	background-color:  #F5F5F5;
 	
 }
 /* .image {
@@ -726,7 +735,7 @@ opacity: 0;
 ********************************************************************* */
 #contact {
 	padding: 100px 0 100px 0;
-	background-color:  #F5F5F5;
+
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;
